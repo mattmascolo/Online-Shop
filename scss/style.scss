@@ -3,9 +3,13 @@ body {
   background-color: #FFFFFF;
   font-family: 'Oswald', sans-serif;
 }
+.logo-contain {
+  max-width: 85px;
+  margin: 10pgx auto 5px;
+}
 .nav {
   justify-content: center;
-  margin: 10px auto;
+  margin: 0 auto 5px;
   .nav-item {
     a {
       color: black;
