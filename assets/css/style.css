@@ -4,8 +4,8 @@ body {
   font-family: 'Oswald', sans-serif; }
 
 .logo-contain {
-  max-width: 75px;
-  margin: 5px auto 3px; }
+  max-width: 65px;
+  margin: 5px auto 0; }
 
 .nav {
   justify-content: center;
