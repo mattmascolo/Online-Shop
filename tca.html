@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Good Mood Co.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="logo-contain">
+    <a href="#"><img class="w-100" src="assets/img/good-mood-logo.png" alt=""></a>
+</div>
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="/">Shop</a>
+    </li>
+    <!--<li class="nav-item">-->
+        <!--<a class="nav-link" href="#">About</a>-->
+    <!--</li>-->
+    <!--<li class="nav-item">-->
+        <!--<a class="nav-link" href="#">Contact</a>-->
+    <!--</li>-->
+</ul>
+<div>
+    <div id="carousel-home" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/blueberries.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-sm-block">
+                    <h2>Good Mood Co.</h2>
+                    <p>Custom T-shirts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="products container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top hover-show-logo" src="assets/img/Good-Mood-Co-Circle-Logo_mockup_Front_Wrinkled_White.jpg" alt="Card image cap" data-flip="assets/img/GoodMoodLogoExample.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Let Your Light Shine</h5>
+                    <p class="card-text">Soft Cotton with vivid print.</p>
+
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="GN2TRSHN38XLA">
+                        <table>
+                            <tr><td><input type="hidden" name="on0" value="Size"></td></tr><tr><td><select name="os0">
+                            <option value="Small">Small </option>
+                            <option value="Large">Large </option>
+                            <option value="X-Large">X-Large </option>
+                            <option value="2XL">2XL </option>
+                        </select> </td></tr>
+                        </table><br />
+                        <input class="hover-show-logo" type="image" width="120px" src="assets/img/addtocart-black.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" data-flip="assets/img/addtocart-white.jpg">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer>
+
+</footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script  src="js/index.js"></script>
+
+</body>
+
+</html>
